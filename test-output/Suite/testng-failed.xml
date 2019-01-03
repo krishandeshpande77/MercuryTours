@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MavenProject.MaveenProject.MecuryTours">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="OpenBrowser"/>
+          <include name="loginvalid"/>
+          <include name="invalidlogin"/>
+        </methods>
+      </class> <!-- MavenProject.MaveenProject.MecuryTours -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

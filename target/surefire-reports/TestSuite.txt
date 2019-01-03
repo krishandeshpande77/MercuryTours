@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 134.706 sec <<< FAILURE! - in TestSuite
+invalidlogin(MavenProject.MaveenProject.MecuryTours)  Time elapsed: 6.462 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+	at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:41)
+	at org.testng.AssertJUnit.assertFalse(AssertJUnit.java:49)
+	at MavenProject.MaveenProject.MecuryTours.invalidlogin(MecuryTours.java:59)
+
